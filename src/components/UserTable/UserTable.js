@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
-import User from "./User/User";
 import AppContext from "../../context/AppContext";
+import User from "../User/User";
 
 function UserTable({ users }) {
   const ctx = useContext(AppContext);

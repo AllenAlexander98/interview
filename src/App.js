@@ -1,7 +1,7 @@
 import "./App.css";
 import React, { useState, useEffect } from "react";
 import UserTable from "./components/UserTable/UserTable";
-import PageNavigation from "./components/UserTable/PageNavigation/PageNavigation";
+import PageNavigation from "./components/PageNavigation/PageNavigation";
 import AppContext from "./context/AppContext";
 
 function App() {
