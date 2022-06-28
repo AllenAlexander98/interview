@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useContext } from "react";
 import AppContext from "../../../context/AppContext";
 
-function PageNavigation({ PaginationHandler }) {
+function PageNavigation() {
   const ctx = useContext(AppContext);
   const pages = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   const [pageNumber, setPageNumber] = useState(1);
